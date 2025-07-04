@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #5a5a5a;
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.upload-box {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.upload-box input,
+.upload-box textarea,
+.upload-box select,
+.upload-box button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.upload-box button {
+  background-color: #8ecae6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-box button:hover {
+  background-color: #219ebc;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-item {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 160px;
+  object-fit: cover;
+}
+
+.menu-item h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #222;
+}
+
+.menu-item p {
+  font-size: 14px;
+  color: #555;
+  min-height: 40px;
+}
+
+.menu-item a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #3b8beb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu-item a:hover {
+  text-decoration: underline;
+}
+
+/* ปุ่มแก้ไขและลบ */
+
+.menu-item .btn-group {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu-item button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.menu-item button:hover {
+  color: #219ebc;
+}
+
+/* ฟอร์มแก้ไข */
+
+.edit-form {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.edit-form input,
+.edit-form textarea,
+.edit-form select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.edit-form button {
+  margin-top: 8px;
+  padding: 8px 15px;
+  background-color: #219ebc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background-color: #176a9a;
+}

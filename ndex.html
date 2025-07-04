@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เมนูอาหาร - Koroz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>เมนูอาหารของ Koroz</h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="ค้นหาเมนู..." />
+  </div>
+
+  <div id="adminSection" style="display: none;">
+    <div class="upload-box">
+      <select id="categoryInput">
+        <option value="ของคาว">ของคาว</option>
+        <option value="ของหวาน">ของหวาน</option>
+        <option value="เครื่องดื่ม">เครื่องดื่ม</option>
+      </select>
+      <input type="file" id="imageInput" accept="image/*" />
+      <input type="text" id="nameInput" placeholder="ชื่อเมนู" />
+      <textarea id="descInput" placeholder="รายละเอียดเมนู..."></textarea>
+      <input type="text" id="linkInput" placeholder="ลิงก์เพิ่มเติม (ถ้ามี)" />
+      <button onclick="addMenuItem()">เพิ่มเมนู</button>
+    </div>
+  </div>
+
+  <div id="menuList" class="menu-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
